@@ -1,0 +1,62 @@
+
+=== Sentinel-1 Data Download Instructions ===
+
+Since automated download requires Copernicus credentials, follow these steps:
+
+1. Register at: https://scihub.copernicus.eu/dhus/#/self-registration
+
+2. Search and download data for each target area:
+
+
+--- Virginia_USA (Hampton Roads area, Virginia) ---
+Search Parameters:
+- Platform: Sentinel-1
+- Product Type: GRD (Ground Range Detected)
+- Sensor Mode: IW (Interferometric Wide)
+- Polarisation: VV+VH (Dual polarization)
+- Time Range: 2025-03-01 to 2025-04-30
+- Area: 36.5°N to 37.5°N, -77.0°E to -75.5°E
+
+Manual Search URL:
+https://scihub.copernicus.eu/dhus/#/home
+
+Search Query (copy-paste):
+platformname:Sentinel-1 AND          producttype:GRD AND          polarisation:VV+VH AND          sensoroperationalmode:IW AND         beginposition:[2025-03-01T00:00:00.000Z TO 2025-04-30T23:59:59.999Z] AND         footprint:"Intersects(POLYGON((-77.0 36.5,-75.5 36.5,-75.5 37.5,-77.0 37.5,-77.0 36.5)))"
+
+Recommended files to download:
+- Look for recent IW_GRDH products
+- Prefer ascending passes for consistency
+- Download both VV and VH polarizations if available
+
+Save to: sar_data\virginia/
+
+
+--- Taiwan_Placeholder (Taiwan region (coordinates estimated)) ---
+Search Parameters:
+- Platform: Sentinel-1
+- Product Type: GRD (Ground Range Detected)
+- Sensor Mode: IW (Interferometric Wide)
+- Polarisation: VV+VH (Dual polarization)
+- Time Range: 2025-03-01 to 2025-04-30
+- Area: 23.0°N to 25.0°N, 120.0°E to 122.0°E
+
+Manual Search URL:
+https://scihub.copernicus.eu/dhus/#/home
+
+Search Query (copy-paste):
+platformname:Sentinel-1 AND          producttype:GRD AND          polarisation:VV+VH AND          sensoroperationalmode:IW AND         beginposition:[2025-03-01T00:00:00.000Z TO 2025-04-30T23:59:59.999Z] AND         footprint:"Intersects(POLYGON((120.0 23.0,122.0 23.0,122.0 25.0,120.0 25.0,120.0 23.0)))"
+
+Recommended files to download:
+- Look for recent IW_GRDH products
+- Prefer ascending passes for consistency
+- Download both VV and VH polarizations if available
+
+Save to: sar_data\taiwan/
+
+
+3. Alternative Free Sources:
+- Google Earth Engine (requires account): https://earthengine.google.com/
+- ASF Data Search (Alaska Satellite Facility): https://search.asf.alaska.edu/
+- USGS EarthExplorer: https://earthexplorer.usgs.gov/
+
+4. Once downloaded, place files in the appropriate subdirectories and run the processing pipeline.

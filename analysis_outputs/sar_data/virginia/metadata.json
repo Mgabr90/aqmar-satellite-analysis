@@ -1,0 +1,10 @@
+{
+  "region": "virginia",
+  "polarizations": [
+    "VV",
+    "VH"
+  ],
+  "resolution": "20m",
+  "type": "mock_data",
+  "created": "2025-07-25T19:48:50.385749"
+}

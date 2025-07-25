@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip:*)",
+      "Bash(gdalinfo:*)",
+      "Bash(python:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp get:*)",
+      "Bash(claude mcp remove:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(find:*)",
+      "Bash(rm:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": []
+  }
+}

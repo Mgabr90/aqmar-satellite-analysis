@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SXPara>
+    <IsSUCCESS>true</IsSUCCESS>
+    <order_receive_id>00003271</order_receive_id>
+    <FormatID>001</FormatID>
+    <OrbitNumber>009633</OrbitNumber>
+    <task_type>2</task_type>
+    <task_id>1690</task_id>
+    <satellite_id>3</satellite_id>
+    <Satellite_Name>AS03</Satellite_Name>
+    <sensor_id>300</sensor_id>
+    <Sensor>IRS</Sensor>
+    <sensor_mode_code>30001</sensor_mode_code>
+    <SensorMode>GE</SensorMode>
+    <station_id>56</station_id>
+    <Station>DL</Station>
+    <Capture_ID>9161</Capture_ID>
+    <receiveTime>2025-04-25T02:05:15.000Z</receiveTime>
+    <Capture_StartTime>2025-04-14T02:53:05.000Z</Capture_StartTime>
+    <LocalSeverName>Linux_1014</LocalSeverName>
+</SXPara>

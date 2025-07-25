@@ -36,8 +36,8 @@ ENV/
 Thumbs.db
 
 # Large data files
-*.tif
-*.zip
+# *.tif
+# *.zip
 
 # Jupyter
 .ipynb_checkpoints/
